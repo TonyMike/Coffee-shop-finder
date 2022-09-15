@@ -4,6 +4,12 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-image: url("/assets/backgroundCoffee.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    color: #373b64;
+    /* height: 100vh; */
 }
 
 a {
@@ -13,14 +19,13 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0%;
+  margin: 0px;
+}
+:root{
+  --text-purple: rgba(67,56,202,1);
+  --text-purple-dark: rgba(79,70,229,1);
+  --text-black: rgba(17,24,29,1);
+  --text-white-100: rgba(229,231,235,1)
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
