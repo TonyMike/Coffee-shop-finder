@@ -10,7 +10,7 @@ const Banner = ({ buttonText, handleonClick }) => {
       <div className={styles.buttonWrapper}>
         <button className={styles.button} onClick={handleonClick}>
           {buttonText}
-        </button>
+        </button> 
       </div>
     </div>
   )

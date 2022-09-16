@@ -20,6 +20,14 @@ export default function Home () {
           buttonText={'View stores nearby'}
           handleonClick={handleonClick}
         />
+        <div className={styles.heroImage}>
+          <Image
+            src={`/assets/hero-image.png`}
+            width={700}
+            height={400}
+            alt='hero image'
+          />
+        </div>
       </main>
     </div>
   )
